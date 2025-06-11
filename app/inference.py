@@ -14,7 +14,7 @@ rescale = layers.Rescaling(scale=1./127.5, offset=-1)
 classes = ['suprise', 'fear', 'disgust', 'happy','sad', 'angry', 'neutral']
 
 
-classifier = keras.models.load_model('facemodel.keras')
+classifier = keras.models.load_model('app/facemodel.keras')
 frame_results = []
 
 
